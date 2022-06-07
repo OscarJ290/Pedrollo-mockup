@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Azure Nest S.A.</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class="iconify" data-icon="mdi:microsoft-azure" data-width="40" data-height="40"></i> Azure Nest
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Inicio</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Acerca de</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Productos</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#faqs" class="nav__link">Preguntas Frecuentes</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contacto</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <img src="assets/img/home.png" alt="" class="home__img">
+
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Azure Nest <br> Innovando el mercado
+                        </h1>
+                        <p class="home__description">
+                            En la época donde la especialización no tiene costo, brindamos a las empresas de una gran variedad de herramientas y soluciones, siempre disponibles.
+
+                            
+                            Con más de 1000+ proyectos gestionados, te ofrecemos el mejor servicio de computo en la nube.
+                        </p>
+                        <a href="#about" class="button button--flex">
+                            ¿Quienes somos? <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__social">
+                        <span class="home__social-follow">Redes</span>
+                        
+                        <div class="home__social-links">
+                            <a href="https://github.com/OscarJ290/" target="_blank" class="home__social-link">
+                                <i class="ri-github-fill"></i>
+                            </a>
+                            <a href="https://github.com/sigerandi" target="_blank" class="home__social-link">
+                                <i class="ri-github-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/oscarjvilla/" target="_blank" class="home__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://www.instagram.com/sigerandi/" target="_blank" class="home__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section container" id="about">
+                <div class="about__container grid">
+                    <img src="assets/img/about.png" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <h2 class="section__title about__title">
+                            La primera empresa 100% especializada en Azure <br> 
+                        </h2>
+
+                        <p class="about__description">
+                            De la mano de expertos, asesoramos, gestionamos e implementamos soluciones basadas en Cloud Computing en la plataforma de Microsoft Azure.
+                        </p>
+
+                        <div class="about__details">
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Protección de datos por medio de diferentes servicios de seguirdad y monitoreo.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Acuerdos de nivel de servicio superiores al 95.5%.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                10 grupos de tecnologías especializadas.
+                            </p>
+                            <p class="about__details-description">
+                                <i class="ri-checkbox-fill about__details-icon"></i>
+                                Soluciones de Hardware como Azure Sphere y Express Route.
+                            </p>
+                        </div>
+
+                        <a href="#products" class="button--link button--flex">
+                            Productos <i class="ri-arrow-right-down-line button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== STEPS ==================
+            <section class="steps section container">
+                <div class="steps__bg">
+                    <h2 class="section__title-center steps__title">
+                        Steps to start your <br> plants off right
+                    </h2>
+
+                    <div class="steps__container grid">
+                        <div class="steps__card">
+                            <div class="steps__card-number">01</div>
+                            <h3 class="steps__card-title">Choose Plant</h3>
+                            <p class="steps__card-description">
+                                We have several varieties plants you can choose from.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">02</div>
+                            <h3 class="steps__card-title">Place an order</h3>
+                            <p class="steps__card-description">
+                                Once your order is set, we move to the next step which is the shipping.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">03</div>
+                            <h3 class="steps__card-title">Get plants delivered</h3>
+                            <p class="steps__card-description">
+                                Our delivery process is easy, you receive the plant direct to your door.
+                            </p>
+                        </div>
+
+                        <div class="steps__card">
+                            <div class="steps__card-number">03</div>
+                            <h3 class="steps__card-title">Get plants delivered</h3>
+                            <p class="steps__card-description">
+                                Our delivery process is easy, you receive the plant direct to your door.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+==-->
+            <!--==================== PRODUCTS ====================-->
+            <section class="product section container" id="products">
+                <h2 class="section__title-center">
+                    Nuestros productos <br> 
+                </h2>
+
+                <p class="product__description">
+                    Nos especializamos en los 10 grupos principales de Azure, teniendo tus necesidades como prioridad,
+                    te ofrecemos la solución más versatil y eficiente, teniendo en cuenta la estabilidad y escalabilidad en cada una.
+                </p>
+
+                <div class="product__container grid">
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/1.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Compute</h3>
+                        <span class="product__price"></span>
+
+                        
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/2.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Networking</h3>
+                        <span class="product__price"></span>
+
+                        
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/3.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Storage</h3>
+                        <span class="product__price"></span>
+
+                        
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/4.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Mobile</h3>
+                        <span class="product__price"></span>
+
+                        
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/5.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Databases</h3>
+                        <span class="product__price"></span>
+
+                        
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/6.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Web</h3>
+                        <span class="product__price"></span>
+
+                        
+                    </article>
+
+
+
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/7.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Internet of Things IoT</h3>
+                        <span class="product__price"></span>
+
+                        
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/8.png" alt="" class="product__img">
+
+                        <h3 class="product__title">Big data</h3>
+                        <span class="product__price"></span>
+
+                        
+                    </article>
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/9.png" alt="" class="product__img">
+
+                        <h3 class="product__title">AI</h3>
+                        <span class="product__price"></span>
+
+                        
+                    </article>
+
+
+
+                    <article class="product__card">
+                        <div class="product__circle"></div>
+
+                        <img src="assets/img/10.png" alt="" class="product__img">
+
+                        <h3 class="product__title">DevOps</h3>
+                        <span class="product__price"></span>
+
+                        
+                    </article>
+
+
+
+                </div>
+            </section>
+
+            <!--==================== QUESTIONS ====================-->
+            <section class="questions section" id="faqs">
+                <h2 class="section__title-center questions__title container">
+                    Preguntas frecuentes <br> 
+                </h2>
+
+                <div class="questions__container container grid">
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    ¿Como agendar?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Puedes contactar por medio de correo electrónico, número telefónico o agendando una cita en nuestras oficinas.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    ¿Que pasa si no estoy seguro de que necesito?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Nuestros asesores evaluan tu caso desde el primer momento y buscan la solución más versatil de acuerdo a tus necesidades.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    ¿Brindan instalación de hardware?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Brindamos el servicio de Express Route y Sphere de Azure, mientras que cualquier otro servicio es de manera virtual a través de Azure Portal.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="questions__group">
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    ¿Que tipo de soluciones ofrecen?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Ofrecemos hospedaje de servidores, de web, de aplicaciones, protección de datos, escalado de servicios, soluciones de inteligencia artificial,
+                                    de conectividad con IoT y todo con diferentes servicios de monitoreo y seguridad de la mano de Microsoft.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    ¿Tienen gestión absoluta de la información?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    No. En primera instancia el usuario se hace cargo de sus propios datos. En caso de que lo necesite nosotros podemos encargarnos de la gestión,
+                                    teniendo la tranquilidad de que tanto nostros como el usuario tenemos el acceso a la información las 24h del día.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="questions__item">
+                            <header class="questions__header">
+                                <i class="ri-add-line questions__icon"></i>
+                                <h3 class="questions__item-title">
+                                    ¿Que pasa si no soy empresa pero quiero uno de sus servicios?
+                                </h3>
+                            </header>
+
+                            <div class="questions__content">
+                                <p class="questions__description">
+                                    Contamos con todo tipo de servicios y tarifas de acuerdo a las necesidades de nuestros clientes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== CONTACT ====================-->
+            <section class="contact section container" id="contact">                
+                <div class="contact__container grid">
+                    <div class="contact__box">
+                        <h2 class="section__title">
+                            Contactanos <br> para asesoría o instalación
+                        </h2>
+
+                        <div class="contact__data">
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Contacta con nuestra oficina</h3>
+                                <span class="contact__description">
+                                    <i class="ri-phone-line contact__icon"></i>
+                                    55 0000 0000
+                                </span>
+                            </div>
+
+                            <div class="contact__information">
+                                <h3 class="contact__subtitle">Contacta por correo</h3>
+                                <span class="contact__description">
+                                    <i class="ri-mail-line contact__icon"></i>
+                                    oscar@ojvg.onmicrosoft.com
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__inputs">
+                            <div class="contact__content">
+                                <input type="email" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Correo de contacto</label>
+                            </div>
+
+                            <div class="contact__content">
+                                <input type="text" placeholder=" " class="contact__input">
+                                <label for="" class="contact__label">Asunto</label>
+                            </div>
+
+                            <div class="contact__content contact__area">
+                                <textarea name="message" placeholder=" " class="contact__input"></textarea>                              
+                                <label for="" class="contact__label">Mensaje</label>
+                            </div>
+                        </div>
+
+                        <button class="button button--flex">
+                            Enviar
+                            <i class="ri-mail-send-line"></i>
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">
+                        <i class="iconify" data-icon="mdi:microsoft-azure" data-width="40" data-height="40"></i> Azure Nest
+                    </a>
+
+                    <h3 class="footer__title">
+                        Mantente atento <br> con nuestras novedades
+                    </h3>
+
+                    <div class="footer__subscribe">
+                        <input type="email" placeholder="Correo" class="footer__input">
+
+                        <button class="button button--flex footer__button">
+                            Suscribete
+                            <i class="ri-mail-send-line"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Corporativo</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">México CDMX</li>
+                        <li class="footer__information">Coyoacan</li>
+                        <li class="footer__information">C. Xicoténcatl 13, San Diego Churubusco</li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Contacto</h3>
+
+                    <ul class="footer__data">
+                        <li class="footer__information">55 0000 0000</li>
+                        
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com/" class="footer__social-link">
+                                <i class="ri-facebook-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" class="footer__social-link">
+                                <i class="ri-instagram-line"></i>
+                            </a>
+                            <a href="https://twitter.com/" class="footer__social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                        </div>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        Aceptamos los siguientes métodos de pago
+                    </h3>
+
+                    <div class="footer__cards">
+                        <img src="assets/img/card1.png" alt="" class="footer__card">
+                        <img src="assets/img/card2.png" alt="" class="footer__card">
+                        <img src="assets/img/card3.png" alt="" class="footer__card">
+                        <img src="assets/img/card4.png" alt="" class="footer__card">
+                    </div>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; OscarJVilla. All rigths reserved</p>
+        </footer>
+        
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="ri-arrow-up-fill scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
