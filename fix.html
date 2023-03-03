@@ -2,26 +2,33 @@
 <html>
 <head>
 	<title>Pedrollo México</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	
 </head>
 <body>
 	<!-- Navbar con logo -->
 	<nav>
-		<a href="#"><img src="ruta/al/logo.png" alt="Logo de la empresa"></a>
-		<ul>
+		<div class="nav-wrapper">
+		  <a href="#" class="brand-logo"><img src="ruta/al/logo.png" alt="Logo de la empresa"></a>
+		  <a href="#" data-target="dropdown-menu" class="dropdown-trigger"><i class="material-icons">menu</i></a>
+		  <ul id="dropdown-menu" class="dropdown-content">
 			<li><a href="#">Productos</a></li>
 			<li><a href="#">Asistencia</a></li>
 			<li><a href="#">Noticias</a></li>
 			<li><a href="#">Contacto</a></li>
-		</ul>
-		<form>
-			<input type="text" placeholder="Buscar...">
-			<button type="submit">Buscar</button>
-		</form>
-	</nav>
+		  </ul>
+		  <form>
+			<div class="input-field">
+				<input id="search" type="text" placeholder="Buscar...">
+				<label for="search"><i class="material-icons">search</i></label>
+			  </div>
+			</form>
+		  </div>
+		</nav>
 	
 	<main>
-		<section>
+		<section class="carousel carousel-slider col s12">
+
 			<div>Aquí van las fotitos</div>
 		</section>
 		
